@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="16dp"
+            android:text="Gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="16dp"
+            android:text="Invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="16dp"
+            android:text="Alpha = 0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="16dp"
+            android:text="TextColor = white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="16dp"
+            android:text="Text = "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="16dp"
+            android:text="view.animate().alpha(0)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="16dp"
+            android:text="view.animate(). x or y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="16dp"
+            android:text="view.animate().scale X or Y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="16dp"
+            android:text="((ViewGroup)view.getParent()).removeView(view)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="16dp"
+            android:textColor="#000"
+            android:text="Background = textColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="16dp"
+            android:text="^_^"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+</ScrollView>
